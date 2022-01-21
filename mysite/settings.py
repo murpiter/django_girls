@@ -25,7 +25,7 @@ SECRET_KEY = 'lfsc+k^r1w^i(r!issupuj13d5l7uw_5rjj=uv%edz*dk_jri8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com', 'localhost', '*']
 
 
 # Application definition
@@ -114,6 +114,7 @@ USE_L10N = True
 
 USE_TZ = True
 
+LOGIN_REDIRECT_URL = '/'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
